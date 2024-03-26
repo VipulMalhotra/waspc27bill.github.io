@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>My Responsive Website</title>
     <style>
         /* Basic styling */
         body {
@@ -40,12 +40,29 @@
             bottom: 0;
             width: 100%;
         }
+
+        /* Responsive design */
+        @media only screen and (max-width: 600px) {
+            /* Adjust header and nav for smaller screens */
+            header {
+                padding: 5px;
+            }
+            nav {
+                padding: 5px;
+            }
+            nav a {
+                margin: 0 5px;
+            }
+            main {
+                padding: 10px;
+            }
+        }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Welcome to My Website</h1>
+    <h1>Welcome to My Responsive Website</h1>
 </header>
 
 <nav>
@@ -61,7 +78,7 @@
 </main>
 
 <footer>
-    <p>&copy; 2024 My Website. All rights reserved.</p>
+    <p>&copy; 2024 My Responsive Website. All rights reserved.</p>
 </footer>
 
 </body>
